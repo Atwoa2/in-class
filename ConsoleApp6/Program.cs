@@ -52,7 +52,7 @@ namespace ConsoleApp6
             {
                 for (int j = 0; j < n; j++)
                 {
-                    if (mas[i, j] < max)
+                    if (mas[i, j] >= max)
                     {
                         max = mas[i, j];
                         x = i + 1;
